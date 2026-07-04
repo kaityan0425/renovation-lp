@@ -857,25 +857,22 @@ ol {
 
   .hero-inner {
     grid-template-columns: 1fr;
+    grid-template-areas:
+      "image"
+      "copy";
     min-height: auto;
     gap: 28px;
     padding: 48px 0;
-    display: flex;
-    flex-direction: column;
   }
 
   .hero-image {
-    order: 1;
-  }
-
-  .hero-copy {
-    order: 2;
-  }
-
-  .hero-image {
+    grid-area: image;
     min-height: 300px;
   }
 
+  .hero-copy {
+    grid-area: copy;
+  }
   .reason-grid,
   .voice-grid,
   .price-grid {
