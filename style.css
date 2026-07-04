@@ -863,7 +863,7 @@ ol {
   }
 
   .hero-image {
-    min-height: 360px;
+    min-height: 300px;
   }
 
   .reason-grid,
@@ -915,6 +915,19 @@ ol {
 
   .nav-tel {
     display: none;
+  }
+
+  .hero-inner {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero-image {
+    order: 1;
+  }
+
+  .hero-copy {
+    order: 2;
   }
 
   .hero-copy h1 {
