@@ -860,6 +860,16 @@ ol {
     min-height: auto;
     gap: 28px;
     padding: 48px 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero-image {
+    order: 1;
+  }
+
+  .hero-copy {
+    order: 2;
   }
 
   .hero-image {
@@ -915,19 +925,6 @@ ol {
 
   .nav-tel {
     display: none;
-  }
-
-  .hero-inner {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .hero-image {
-    order: 1;
-  }
-
-  .hero-copy {
-    order: 2;
   }
 
   .hero-copy h1 {
